@@ -8,8 +8,7 @@ function Place(city, state, landmarks, dateVisited) {
 }
 
 Place.prototype.addNotes = function (note) {
-    return this.notes;
-    // this.notes.push(note);
+    this.notes.push(note);
 }
 
 
