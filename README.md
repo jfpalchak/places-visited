@@ -40,6 +40,22 @@ Expected Output: Place {city: "Portland", state: "OR", landmarks: ["Powell's Boo
 
 Test 1: "It will return an empty array of notes"
 Code: 
+    pdx.addNotes();
+Expected Output: []
+
+Test 2: "It will return an array with one value"
+Code: 
+    pdx.addNotes("It was fun!");
+Expected Output: ["It was fun!"]
+
+```
+
+<!-- **Description:** Place.prototype.Location()
+```javascript
+
+Test 1: "It will return an empty array of notes"
+Code: 
     pdx.addNotes()
 Expected Output: []
-```
+``` -->
+
