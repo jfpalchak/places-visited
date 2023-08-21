@@ -11,5 +11,8 @@ Place.prototype.addNotes = function (note) {
     this.notes.push(note);
 }
 
+Place.prototype.location = function () {
+    return this.city + ", " + this.state;
+}
 
 let pdx = new Place("Porland", "Oregon", ["Powell's Books", "Big Pink"], "8/21/2023");
