@@ -48,6 +48,12 @@ Code:
     pdx.addNotes("It was fun!");
 Expected Output: ["It was fun!"]
 
+Test 2: "It will continue to add elements to the notes array"
+Code: 
+    pdx.addNotes("It was cold");
+Expected Output: ["It was fun!", "It was cold"]
+
+
 ```
 
 <!-- **Description:** Place.prototype.Location()
