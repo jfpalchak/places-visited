@@ -33,16 +33,13 @@ Code:
     const destination = new Place(city, state, landmarks, dateVisited);
 Expected Output: Place {city: "Portland", state: "OR", landmarks: ["Powell's Books", "Big Pink"], dateVisited: "8/21/2023"} 
 
-Test 5: ""
-Code: 
-
 ```
 
 **Description:** Place.prototype.addNotes()
 ```javascript
 
-Test 1: "."
+Test 1: "It will return an empty array of notes"
 Code: 
-
-Expected Output: 
+    pdx.addNotes()
+Expected Output: []
 ```

@@ -1,15 +1,16 @@
 // BUSINESS LOGIC for Places ---------------
-function Place(location, landmarks, dateVisited) {
-    this.location = location;
+function Place(city, state, landmarks, dateVisited) {
+    this.city = city;
+    this.state = state;
     this.landmarks = landmarks;
     this.dateVisited = dateVisited;
     this.notes = [];
 }
-}
 
 Place.prototype.addNotes = function (note) {
-    this.note = 
+    return this.notes;
+    // this.notes.push(note);
 }
 
 
-let portlandOR = new Place("Porland, OR", ["Powell's Books", "Big Pink", "Voodoo Donuts"], "8/21/2023");
+let pdx = new Place("Porland", "Oregon", ["Powell's Books", "Big Pink"], "8/21/2023");
