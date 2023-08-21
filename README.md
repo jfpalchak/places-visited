@@ -48,7 +48,7 @@ Code:
     pdx.addNotes("It was fun!");
 Expected Output: ["It was fun!"]
 
-Test 2: "It will continue to add elements to the notes array"
+Test 3: "It will continue to add elements to the notes array"
 Code: 
     pdx.addNotes("It was cold");
 Expected Output: ["It was fun!", "It was cold"]
@@ -56,12 +56,12 @@ Expected Output: ["It was fun!", "It was cold"]
 
 ```
 
-<!-- **Description:** Place.prototype.Location()
+**Description:** Place.prototype.location()
 ```javascript
 
-Test 1: "It will return an empty array of notes"
+Test 1: "It will concatenate city and state with a comma and return location"
 Code: 
-    pdx.addNotes()
-Expected Output: []
-``` -->
+    pdx.location()
+Expected Output: "Portland, Oregon"
+```
 
